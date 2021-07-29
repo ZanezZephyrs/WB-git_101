@@ -1,1 +1,1 @@
-print("Fix Conflict")
+print("Fix conflict")
