@@ -1,5 +1,1 @@
-print("Conflict solved")
-<<<<<<< HEAD
-
-=======
->>>>>>> develop
+print("Conflito Resolvido")
