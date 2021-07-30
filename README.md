@@ -2,6 +2,7 @@
 
 In this exercise every member need to complete 3 tasks, the tasks are explained below
 
+
 ## 1-Your first PR
 
 You should create a branch from the develop branch, the branch name should follow the structure: feature/your_name/any_name, for example feature/thales/cool_branch.
@@ -12,6 +13,7 @@ Inside the folder you should create a python file (.py) named my_function.py, th
 
 Once you finished your file, create a pull request to the develop branch
 
+
 ## 2- something went wrong
 
 In this task you will need to fix a conflict, to start this task you must have finished the task 1 first.
@@ -19,6 +21,7 @@ In this task you will need to fix a conflict, to start this task you must have f
 Create another branch from the develop, the branch should be feature/your_name/fix_conflict.
 
 Ask thales to setup this task for you, he will change the code of your my_function.py file in order to create a conflict, your task is to fix such conflict and create a pull request.
+
 
 ## 3 - the sweet sweet judgement
 
@@ -29,6 +32,7 @@ Create a new branch, the name should be, feature/your_name/judge
 in the folder created at task 1, create a new file called judge.py, in this file write code to solve any problem that you wish, it can be pretty basic, the file should have at least 20 lines( please avoid copying code from somewhere, the idea is that the code that you write should have some points to improve).
 
 Some problems that you can solve:
+
 - given 2 integers, print theirs sum, product, minimum multiple common and maximum common divisor.
 - Implement binary search
 - Implement some sorting algorithm
