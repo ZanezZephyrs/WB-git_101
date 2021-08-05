@@ -1,17 +1,17 @@
-size1 = int(input("What's the size of the first square matrix? "))
-size2 = int(input("What's the size of the second square matrix? "))
+size1 = int(input("What's the size of the first square matrix? (Type and press Enter) "))
+size2 = int(input("What's the size of the second square matrix? (Type and press Enter) "))
 
 while (size1 != size2):
     print("Invalid matrices size!")
     print("Both matrices must have the same size in order to be multiplied!")
-    size1 = int(input("What's the size of the first square matrix? "))
-    size2 = int(input("What's the size of the second square matrix? "))
+    size1 = int(input("What's the size of the first square matrix? (Type and press Enter) "))
+    size2 = int(input("What's the size of the second square matrix? (Type and press Enter) "))
 
 matrix1 = []
 matrix2 = []
 
 print("What are the elements of the first matrix?")
-print("(Write them from left to right, then from top to bottom)")
+print("(Write them from left to right, then from top to bottom. Press Enter after each element!)")
 for i in range (size1):
     matrix1.append([])
     for j in range (size1):
@@ -19,7 +19,7 @@ for i in range (size1):
         matrix1[i].append(element)
 
 print("What are the elements of the second matrix?")
-print("(Write them from left to right, then from top to bottom)")
+print("(Write them from left to right, then from top to bottom. Press Enter after each element!)")
 for i in range (size1):
     matrix2.append([])
     for j in range (size1):
