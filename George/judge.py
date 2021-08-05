@@ -3,7 +3,7 @@ size2 = int(input("What's the size of the second square matrix? "))
 
 while (size1 != size2):
     print("Invalid matrices size!")
-    print("Both matrices have to have the same size in order to be multiplied!")
+    print("Both matrices must have the same size in order to be multiplied!")
     size1 = int(input("What's the size of the first square matrix? "))
     size2 = int(input("What's the size of the second square matrix? "))
 
