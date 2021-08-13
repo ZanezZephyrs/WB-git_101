@@ -39,8 +39,6 @@ def MDC(first_int, sec_int):
             else:
                 dic_s_i[primos[i]] += 1
         i += 1
-    print(dic_f_i)
-    print(dic_s_i)
     i = 0
     for i in range(len(primos)):
         if primos[i] not in dic_f_i or primos[i] not in dic_s_i:
