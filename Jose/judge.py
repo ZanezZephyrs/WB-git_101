@@ -8,8 +8,8 @@ def product(first_int, sec_int):
 
 def MMC(first_int, sec_int):
     mdc = MDC(first_int, sec_int)
-    if mdc == False:
-        return False
+    if mdc == None:
+        return None
     else:
         mmc = (first_int*sec_int)/mdc
         return mmc
@@ -48,7 +48,7 @@ def MDC(first_int, sec_int):
         else:
             mdc = mdc * (primos[i] * dic_f_i[primos[i]])
     if i == 0:
-        return False
+        return None
     else:
         return mdc
 
@@ -63,13 +63,13 @@ def main():
     print("Produto:")
     print(p)
     mmc = MMC(first_int, sec_int)
-    if mmc == False:
+    if mmc == None:
         print("O MMC destes números não existe.")
     else:
         print("MMC:")
         print(mmc)
     mdc = MDC(first_int, sec_int)
-    if mdc == False:
+    if mdc == None:
         print("O MDC destes números não existe.")
     else:
         print("MDC:")
