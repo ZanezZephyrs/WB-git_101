@@ -55,6 +55,7 @@ def MDC(first_int, sec_int):
         return mdc
 
 def main():
+    print("Insira os números a serem utilizados:")
     first_int = int(input())
     sec_int = int(input())
     s = sum(first_int, sec_int)
