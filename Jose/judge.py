@@ -21,6 +21,8 @@ def MDC(first_int, sec_int):
     s_i = sec_int
     dic_f_i = {}
     dic_s_i = {}
+    if first_int == 0 or sec_int == 0:
+            return None
     i = 0 # servirá de identação para checar os numeros primos
     while(f_i > 1):
         while(f_i % primos[i] == 0):
