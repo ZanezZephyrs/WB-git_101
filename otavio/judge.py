@@ -15,7 +15,6 @@ def Calculator(start_date, years, months, percentage, initial,monthly_income):
         
 
 def convert_str_to_boolean(is_monthly):
-    is_monthly
     if(is_monthly == 'sim'):
         return True
     else:
@@ -25,7 +24,7 @@ def Main():
     start = input("insira a data de inicio do rendimento: formato dd/mm/yyyy \n")
     end = input("insira a data de vencimento do rendimento: formato dd/mm/yyyy\n")
     percentage = float(input("insira o rendimento mensal em porcentagem: ex: 1% = 0.01\n"))
-    first_contribution = float(input("insita o valor do primeiro aporte\n"))
+    first_contribution = float(input("insita o valor do primeiro aporte:\n"))
     is_monthly = input("terá aportes mensais? Responda sim ou não\n").lower().strip()
     percentage +=1
     start = datetime.strptime(start,"%d/%m/%Y").date()
