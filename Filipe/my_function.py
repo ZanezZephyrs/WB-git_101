@@ -1,1 +1,1 @@
-print("Conflict solved")
+print("Conflito Resolvido")
